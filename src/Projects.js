@@ -38,7 +38,7 @@ const projects = [
         'name' : 'Stated',
         'live_link' : 'https://aziz3010.github.io/Stated-Template/',
         'pic' : I1,
-        'project_name' : 'Stated Template',
+        'project_name' : 'Stated',
         'technology': 'Frontend'
     },
     {    
@@ -52,49 +52,49 @@ const projects = [
         'name' : 'Template 3',
         'live_link' : 'https://aziz3010.github.io/Template-3/',
         'pic' : I3,
-        'project_name' : 'Template 3',
+        'project_name' : 'Template',
         'technology': 'Frontend'
     },
     {    
         'name' : 'Restaurant Breakfast',
         'live_link' : 'https://aziz3010.github.io/Restaurant-Breakfast-Template/',
         'pic' : I4,
-        'project_name' : 'Restaurant Breakfast Template',
+        'project_name' : 'Restaurant Breakfast',
         'technology': 'Frontend'
     },
     {    
         'name' : 'Bakery',
         'live_link' : 'https://aziz3010.github.io/Bakery/',
         'pic' : I5,
-        'project_name' : 'Bakery Site',
+        'project_name' : 'Bakery',
         'technology': 'Frontend'
     },
     {    
         'name' : 'Galaxy',
         'live_link' : 'https://aziz3010.github.io/Galaxy-Template/',
         'pic' : I6,
-        'project_name' : 'Galaxy Template',
+        'project_name' : 'Galaxy',
         'technology': 'Frontend'
     },
     {    
         'name' : 'Kasper',
         'live_link' : 'https://aziz3010.github.io/Kasper-Template/',
         'pic' : I7,
-        'project_name' : 'Kasper Template',
+        'project_name' : 'Kasper',
         'technology': 'Frontend'
     },
     {    
         'name' : 'Template 2',
         'live_link' : 'https://aziz3010.github.io/Web-Template/',
         'pic' : I8,
-        'project_name' : 'Web Template',
+        'project_name' : 'Web',
         'technology': 'Frontend'
     },
     {    
         'name' : 'Leon',
         'live_link' : 'https://aziz3010.github.io/Leon-Template/',
         'pic' : I9,
-        'project_name' : 'Leon Template',
+        'project_name' : 'Leon',
         'technology': 'Frontend'
     },
     {    
@@ -143,7 +143,7 @@ const projects = [
         'name' : 'portfolio',
         'live_link' : 'https://aziz-portfolio200.herokuapp.com/',
         'pic' : I16,
-        'project_name' : 'aziz portfolio',
+        'project_name' : 'portfolio',
         'technology': 'React.Js'
     },
     {    
@@ -164,7 +164,7 @@ const projects = [
         'name' : 'notes',
         'live_link' : 'https://aziz-notes.herokuapp.com/',
         'pic' : I19,
-        'project_name' : 'aziz notes',
+        'project_name' : 'notes',
         'technology': 'React.Js'
     },
     {    
@@ -178,14 +178,14 @@ const projects = [
         'name' : 'e store',
         'live_link' : 'http://aziz-e-store.rf.gd/',
         'pic' : I21,
-        'project_name' : 'aziz e store',
+        'project_name' : 'e store',
         'technology': 'Backend'
     },
     {    
         'name' : 'win with aziz',
         'live_link' : 'http://win-with-aziz.rf.gd/',
         'pic' : I22,
-        'project_name' : 'win with aziz',
+        'project_name' : 'win',
         'technology': 'Backend'
     },
     {    
@@ -220,7 +220,7 @@ const projects = [
         'name' : 'restaurant React.Js',
         'live_link' : 'https://restaurant-by-react.netlify.app/',
         'pic' : I27,
-        'project_name' : 'restaurant React.Js',
+        'project_name' : 'restaurant',
         'technology': 'React.Js'
     },
     {    
@@ -241,7 +241,7 @@ const projects = [
         'name' : 'vuexy-dashboard',
         'live_link' : 'https://aziz3010.github.io/vuexy-dashboard/',
         'pic' : I30,
-        'project_name' : 'vuexy-dashboard',
+        'project_name' : 'vuexy dashboard',
         'technology': 'Frontend'
     },
     {    
@@ -262,7 +262,7 @@ const projects = [
         'name' : 'ecommerce app',
         'live_link' : '../NotFound.html',
         'pic' : I33,
-        'project_name' : 'ecommerce app',
+        'project_name' : 'ecommerce',
         'technology': 'React.Js'
     },
     {    

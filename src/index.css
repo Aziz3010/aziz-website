@@ -1,14 +1,3 @@
-:root {
-    --background-section: #2C2D2F;
-    --background-header: #17181B;
-    --changerColor: #00A3E1;
-    --border-header-side: #202226;
-    --border-header-burger: #3b3c43;
-    --font-icon-color: #777;
-    --font-icon-color-hovor: #c1c1c1;
-    --transition: 300ms;
-}
-
 * {
     padding: 0;
     margin: 0;

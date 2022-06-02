@@ -9,7 +9,7 @@
     align-items: center;
     padding: .5rem 1rem;
     border-radius: 5px 5px 0 0;
-    background-color: var(--border-header-burger);
+    background-color: #3b3c43;
 }
 
 .spans {
@@ -22,18 +22,18 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: var(--changerColor);
+    background-color: #00A3E1;
     display: block;
     margin-right: 4px;
 }
 
 .spans span:nth-child(2) {
-    background-color: var(--font-icon-color);
+    background-color: #777;
 }
 
 .spans span:last-child {
     margin-right: 0px;
-    background-color: var(--font-icon-color);
+    background-color: #777;
 }
 
 .site_title {
