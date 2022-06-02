@@ -62,7 +62,7 @@ const Contact = () => {
             onChange={ (e) => setMessage(e.target.value)}
             required={true}
             name="message"
-            className="form-control"
+            className={`${Styles.textarea} form-control`}
             rows='8'
             id="Message"
           >

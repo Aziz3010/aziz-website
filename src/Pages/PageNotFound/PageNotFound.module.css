@@ -17,3 +17,9 @@
     font-size: 18px !important;
     margin-right: 3px;
 }
+
+@media screen and (max-width: 400px) {
+    .main {
+        padding: 2rem 2rem;
+    }
+}

@@ -35,3 +35,15 @@ main {
     user-select: none;
     color: #fff;
 }
+
+.badge {
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin-right: 5px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2px solid #00a1e13d;
+}
