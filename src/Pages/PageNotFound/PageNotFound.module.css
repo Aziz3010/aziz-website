@@ -1,0 +1,19 @@
+.main {
+    padding: 2rem 4rem;
+}
+
+.PageNotFound h1 {
+    color: red;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+}
+
+.icon {
+    font-size: 18px !important;
+    margin-right: 3px;
+}

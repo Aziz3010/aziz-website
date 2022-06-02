@@ -1,0 +1,161 @@
+nav {
+    background-color: #17181B;
+    position: fixed;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    z-index: 500;
+    transition: left .5s;
+}
+
+.layout,
+.layoutOff {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: left .5s;
+}
+
+.layout {
+    left: 200px;
+}
+
+.layoutOff {
+    left: -100%;
+}
+
+nav .burgerBtn {
+    position: absolute;
+    top: 152px;
+    left: 100%;
+    padding: 3.5px;
+    border-radius: 0 5px 5px 0;
+    background-color: #00a3e180;
+    z-index: 999;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .burgerBtn svg {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* Image & Name */
+.navTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.navTop img {
+    width: 200px;
+}
+
+.navTop p {
+    color: #fff;
+    background-color: #00a3e180;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: .4rem;
+    text-align: center;
+}
+
+/* Pages Links */
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.pages li {
+    width: 100%;
+    border-bottom: .5px solid rgba(119, 119, 119, .3);
+}
+
+.pages li a {
+    padding: .8rem 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #777;
+    transition: padding-left .5s;
+}
+
+.pages li a svg {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.pages li a:hover {
+    padding-left: 2rem;
+}
+
+/* Social & CopyRight */
+.navBottom {
+    padding: 1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: .8rem;
+}
+
+.social li {
+    width: fit-content;
+    margin-right: 5px;
+}
+
+.social li a {
+    color: #777;
+    transition: color .5s;
+}
+
+.social li a svg {
+    font-size: 22px;
+}
+
+.social li:nth-child(1) a:hover {
+    color: black;
+}
+.social li:nth-child(2) a:hover,
+.social li:nth-child(4) a:hover {
+    color: rgb(40, 40, 240);
+}
+.social li:nth-child(3) a:hover {
+    color: green;
+}
+.social li:nth-child(5) a:hover {
+    color: #00A3E1;
+}
+.social li:nth-child(6) a:hover {
+    color: red;
+}
+
+.navBottom p {
+    font-size: 13px;
+    text-align: center;
+    color: #777;
+}

@@ -1,0 +1,69 @@
+.main {
+    padding: 0;
+}
+
+.Home {
+    background-color: var(--background-header);
+    background-image: url(../../images/others/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.ovarlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Home .caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    user-select: none;
+}
+
+.Home .caption h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #FFF;
+}
+
+.Home .caption h1 span {
+    color: #00A3E1;
+}
+
+.Home .caption p {
+    color: #fff;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* media */
+@media screen and (max-width: 576px) {
+    .Home .caption {
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .Home .caption h1 {
+        display: flex;
+        flex-direction: column;
+    }
+}

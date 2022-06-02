@@ -1,0 +1,36 @@
+.subTilte {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.h2 {
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    width: fit-content;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid #00A3E1;
+    position: relative;
+}
+
+.h2::after,
+.h2::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    bottom: 0;
+    background-color: #00A3E1;
+}
+
+.h2::after {
+    right: 0;
+}
+
+.h2::before {
+    left: 0;
+}

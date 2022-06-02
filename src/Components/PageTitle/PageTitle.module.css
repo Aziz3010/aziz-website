@@ -1,0 +1,19 @@
+header {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    user-select: none;
+    border-bottom: 1px dashed #777;
+}
+
+header h2 {
+    color: #00A3E1;
+    font-size: 40px;
+}
+
+header svg {
+    font-size: 40px !important;
+    color: #00A3E1;
+}

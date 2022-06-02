@@ -1,0 +1,128 @@
+.main {
+    padding: 2rem 4rem;
+}
+
+.Resume ul {
+    margin-top: 2rem;
+}
+
+.Resume ul li {
+    padding: 15px 0 15px 30px ;
+    margin: 0 0 4rem 4rem;
+    position: relative;
+}
+
+.Resume ul li .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--changerColor);
+}
+
+.Resume ul li .line::before,
+.Resume ul li .line::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -3px;
+    border-radius: 50%;
+    border: 2px solid var(--changerColor);
+}
+
+.Resume ul li .line::before {
+    top: -10px;
+}
+
+.Resume ul li .line::after {
+    bottom: -10px;
+}
+
+.Resume ul li .content h5 {
+    color: var(--font-icon-color-hovor);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 4px 0;
+    text-transform: uppercase;
+}
+
+.Resume ul li .content h6 {
+    color: var(--changerColor);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 8px 0;
+}
+
+.Resume ul li .content p {
+    color: var(--font-icon-color-hovor);
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding-right: 3rem;
+}
+
+.Resume ul li .years span {
+    color: var(--font-icon-color-hovor);
+    width: 55px;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    left: -60px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Resume ul li .years .from {
+    bottom: -16px;
+}
+
+.Resume ul li .years .to {
+    top: -16px;
+}
+
+/* media */
+@media screen and (max-width: 576px) {
+    .Resume ul li .content p {
+        padding-right: 0rem;
+    }   
+}
+
+.Resume hr {
+    height: 1px;
+    background-color: var(--changerColor);
+    opacity: .1;
+}
+
+/* progress-list */
+.Resume .progress_list li {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 20px;
+    padding: 0px;
+}
+
+.Resume .progress_list li .label_span {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Resume .progress_list li .label_span label {
+    color: var(--font-icon-color-hovor);
+    margin: 0;
+}
+
+.Resume .progress_list li .label_span span {
+    color: var(--font-icon-color-hovor);
+}
+
+.Resume .progress_list li progress {
+    height: 25px;
+    width: 100%;
+}
