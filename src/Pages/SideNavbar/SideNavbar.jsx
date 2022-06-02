@@ -6,7 +6,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import BadgeIcon from '@mui/icons-material/Badge';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
+// import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -64,9 +64,10 @@ const SideNavbar = () => {
             <Link to='/portfolio'><BusinessCenterIcon /> Portfolio</Link>
           </li>
           
-          <li>
+          {/* <li>
             <Link to='/contact'><ConnectWithoutContactIcon/> Contact</Link>
-          </li>
+          </li> */}
+
         </ul>
 
         {/* navBottom */}
