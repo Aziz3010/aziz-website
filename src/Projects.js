@@ -32,6 +32,7 @@ import I31 from './images/projects/todo-vue-app.jpg';
 import I32 from './images/projects/food-recipe.jpg';
 import I33 from './images/projects/ecommerce-app.jpg';
 import I34 from './images/projects/real-estate-app.jpg';
+import I35 from './images/projects/google-clone.jpg';
 
 const projects = [
     {    
@@ -271,7 +272,14 @@ const projects = [
         'pic' : I34,
         'project_name' : 'Real state',
         'technology': 'React.Js'
-    }
+    },
+    {    
+        'name' : 'Google Clone',
+        'live_link' : 'https://google-clone-woad-tau.vercel.app/search',
+        'pic' : I35,
+        'project_name' : 'Google Clone',
+        'technology': 'React.Js'
+    },
 ];
 
 export default projects;
