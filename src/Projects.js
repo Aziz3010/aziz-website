@@ -33,6 +33,7 @@ import I32 from './images/projects/food-recipe.jpg';
 import I33 from './images/projects/ecommerce-app.jpg';
 import I34 from './images/projects/real-estate-app.jpg';
 import I35 from './images/projects/google-clone.jpg';
+import I36 from './images/projects/Online-Quiz.jpg';
 
 const projects = [
     {    
@@ -217,7 +218,7 @@ const projects = [
         'project_name' : 'Admin Dashboard',
         'technology': 'React.Js'
     },
-    {    // 
+    {    
         'name' : 'restaurant React.Js',
         'live_link' : 'https://restaurant-by-react.netlify.app/',
         'pic' : I27,
@@ -279,6 +280,13 @@ const projects = [
         'pic' : I35,
         'project_name' : 'Google Clone',
         'technology': 'React.Js'
+    },
+    {    
+        'name' : 'Online Quiz',
+        'live_link' : 'https://aziz3010.github.io/Online-Quiz-App/',
+        'pic' : I36,
+        'project_name' : 'Online Quiz',
+        'technology': 'JavaScript'
     },
 ];
 
