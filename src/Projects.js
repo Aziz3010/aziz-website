@@ -34,6 +34,7 @@ import I33 from './images/projects/ecommerce-app.jpg';
 import I34 from './images/projects/real-estate-app.jpg';
 import I35 from './images/projects/google-clone.jpg';
 import I36 from './images/projects/Online-Quiz.jpg';
+import I37 from './images/projects/google-search-clone.jpg';
 
 const projects = [
     {    
@@ -275,10 +276,10 @@ const projects = [
         'technology': 'React.Js'
     },
     {    
-        'name' : 'Google Clone',
+        'name' : 'Google tw',
         'live_link' : 'https://google-clone-woad-tau.vercel.app/search',
         'pic' : I35,
-        'project_name' : 'Google Clone',
+        'project_name' : 'Google tw',
         'technology': 'React.Js'
     },
     {    
@@ -287,6 +288,13 @@ const projects = [
         'pic' : I36,
         'project_name' : 'Online Quiz',
         'technology': 'JavaScript'
+    },
+    {    
+        'name' : 'Google Css',
+        'live_link' : 'https://google-search-clone-cyan.vercel.app/all',
+        'pic' : I37,
+        'project_name' : 'Google Css',
+        'technology': 'React.Js'
     },
 ];
 
