@@ -35,6 +35,7 @@ import I34 from './images/projects/real-estate-app.jpg';
 import I35 from './images/projects/google-clone.jpg';
 import I36 from './images/projects/Online-Quiz.jpg';
 import I37 from './images/projects/google-search-clone.jpg';
+import I38 from './images/projects/nax.jpg';
 
 const projects = [
     {    
@@ -295,6 +296,13 @@ const projects = [
         'pic' : I37,
         'project_name' : 'Google Css',
         'technology': 'React.Js'
+    },
+    {    
+        'name' : 'Nax',
+        'live_link' : 'https://aziz3010.github.io/Nax/',
+        'pic' : I38,
+        'project_name' : 'Nax',
+        'technology': 'Frontend'
     },
 ];
 
