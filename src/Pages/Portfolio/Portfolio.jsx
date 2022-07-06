@@ -8,26 +8,16 @@ import ProjectsAPI from '../../Projects.js';
 const Portfolio = () => {
   const [ projects, setProjects ] = useState(ProjectsAPI);
   const projectsCount = projects.length;
-
+  
   const handleTabs = (e) => {
     e.preventDefault();
-
     const allTabs = document.querySelectorAll('.nav-link');
     allTabs.forEach((element)=>{
       element.classList.remove('active');
     })
     e.target.classList.add('active');
-    
     const tabValue = e.target.innerText;
-
-    const filteredProjects = ProjectsAPI.filter( ( proj ) => {
-      if(proj.technology === tabValue) {
-        return proj;
-      } else if ( tabValue === 'All' ) {
-        return proj;
-      }
-    });
-    
+    const filteredProjects = tabValue === 'All' ? ProjectsAPI : ProjectsAPI.filter( proj => ( proj.technology === tabValue && proj ) );
     setProjects(filteredProjects);
   }
 
