@@ -68,6 +68,20 @@ const projects = [
     technology: "Frontend",
   },
   {
+    name: "Nax",
+    live_link: "https://aziz3010.github.io/Nax/",
+    pic: I38,
+    project_name: "Nax",
+    technology: "Frontend",
+  },
+  {
+    name: "Food delivery",
+    live_link: "https://food-delivery-app-flax.vercel.app/home",
+    pic: I39,
+    project_name: "Food delivery",
+    technology: "React.Js",
+  },
+  {
     name: "Bakery",
     live_link: "https://aziz3010.github.io/Bakery/",
     pic: I5,
@@ -296,20 +310,6 @@ const projects = [
     live_link: "https://google-search-clone-cyan.vercel.app/all",
     pic: I37,
     project_name: "Google Css",
-    technology: "React.Js",
-  },
-  {
-    name: "Nax",
-    live_link: "https://aziz3010.github.io/Nax/",
-    pic: I38,
-    project_name: "Nax",
-    technology: "Frontend",
-  },
-  {
-    name: "Food delivery",
-    live_link: "https://food-delivery-app-flax.vercel.app/home",
-    pic: I39,
-    project_name: "Food delivery",
     technology: "React.Js",
   },
 ];
