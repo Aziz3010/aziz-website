@@ -15,6 +15,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MenuIcon from '@mui/icons-material/Menu';
+// import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 
 const SideNavbar = () => {
 
@@ -66,6 +67,10 @@ const SideNavbar = () => {
           
           {/* <li>
             <Link to='/contact'><ConnectWithoutContactIcon/> Contact</Link>
+          </li> */}
+
+          {/* <li>
+            <Link to='/login'><DashboardCustomizeIcon /> Dashboard</Link>
           </li> */}
 
         </ul>

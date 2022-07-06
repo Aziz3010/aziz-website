@@ -1,0 +1,26 @@
+.main {
+    padding: 2rem 4rem;
+}
+
+.form {
+    width: 60%;
+    margin: 5rem auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main {
+        padding: 2rem 2rem;
+    }
+}
