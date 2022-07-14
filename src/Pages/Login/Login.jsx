@@ -10,6 +10,7 @@ const Login = () => {
     const [errorMSG, setErrorMSG] = useState('Something is wrong');
     
     const callAPI = async () => {
+        // local host
         // const request = await fetch(`http://localhost/myProjectsAPI/index.php?email=${email}&password=${password}`);
         const request = await fetch(`http://myapi.rf.gd/index.php?email=${email}&password=${password}`);
         const respone = await request.json();
