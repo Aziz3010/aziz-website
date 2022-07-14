@@ -54,7 +54,7 @@ const Portfolio = () => {
       </ul>
       {/* Projects Numeber */}
       <div className='d-flex justify-content-center align-items-center mt-3 mb-4'>
-        <span className="badge badge-primary">{projectsCount}</span>Projects     
+        <span className="badge bg-primary">{projectsCount}</span>Projects     
       </div>
       
       {/* Mapping on Projects */}

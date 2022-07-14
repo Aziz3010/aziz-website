@@ -7,6 +7,7 @@ import Resume from './Pages/Resume/Resume';
 // import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import Dashboard from './Pages/Dashboard/Dashboard';
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/portfolio' element={ <Portfolio /> } />
         {/* <Route path='/contact' element={ <Contact /> } /> */}
         <Route path='/login' element={ <Login /> } />
+        <Route path='/login:dashboard' element={ <Dashboard /> } />
         <Route path='*' element={ <PageNotFound /> } />
       </Routes>
     </>
