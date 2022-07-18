@@ -11,13 +11,8 @@ const Login = () => {
     const [errorMSG, setErrorMSG] = useState('Something is wrong');
 
     const callAPI = async () => {
-        // "proxy": "http://myapi.rf.gd",
-        const { data } = await axios.get(`${process.env.REACT_APP_API_HOST}/index.php?email=${email}&password=${password}`);
-        
         // local host
-        // "proxy": "http://localhost/myProjectsAPI",
-        // const { data } = await axios.get(`/index.php?email=${email}&password=${password}`);
-        
+        const { data } = await axios.get(`http://localhost/myProjectsAPI/index.php?email=${email}&password=${password}`);
         console.log(data);
 
         if (data.msg === 'Allow') {

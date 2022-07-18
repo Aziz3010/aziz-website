@@ -21,8 +21,7 @@ const Dashboard = () => {
   }
 
   const callAPIToPost = async () => {
-    // const resp = await axios.post(`http://localhost/myProjectsAPI/postProjects.php`, formData);
-    const resp = await axios.post(`${process.env.REACT_APP_API_HOST}/postProjects.php`, formData);
+    const resp = await axios.post(`http://localhost/myProjectsAPI/postProjects.php`, formData);
     console.log(resp.data);
   }
 
