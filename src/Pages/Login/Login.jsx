@@ -13,6 +13,9 @@ const Login = () => {
     const callAPI = async () => {
         // local host
         // "proxy": "http://myapi.rf.gd",
+
+        // "build": "react-scripts build",
+
         const { data } = await axios.get(`http://myapi.rf.gd/index.php?email=${email}&password=${password}`);
         // "proxy": "http://localhost/myProjectsAPI",
         // const { data } = await axios.get(`/index.php?email=${email}&password=${password}`);
