@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Styles from './Login.module.css';
 import LoginIcon from '@mui/icons-material/Login';
 import PageTitle from '../../Components/PageTitle/PageTitle';
-import axios from 'axios';
+import Axios from 'axios';
 
 const Login = () => {
     const [email, setEmail] = useState('a.abdelazizg@gmail.com');
@@ -12,7 +12,7 @@ const Login = () => {
 
     const callAPI = async () => {
         // local host
-        const { data } = await axios.get(`http://localhost/myProjectsAPI/index.php?email=${email}&password=${password}`);
+        const { data } = await Axios.get(`/index.php?email=${email}&password=${password}`);
         console.log(data);
 
         if (data.msg === 'Allow') {

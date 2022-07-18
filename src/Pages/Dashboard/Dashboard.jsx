@@ -3,7 +3,7 @@ import Styles from './Dashboard.module.css';
 import PageTitle from '../../Components/PageTitle/PageTitle';
 import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import Axios from 'axios';
 
 const Dashboard = () => {
   const [name, setName] = useState('');
@@ -21,7 +21,7 @@ const Dashboard = () => {
   }
 
   const callAPIToPost = async () => {
-    const resp = await axios.post(`http://localhost/myProjectsAPI/postProjects.php`, formData);
+    const resp = await Axios.post("/postProjects.php", formData);
     console.log(resp.data);
   }
 
