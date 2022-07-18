@@ -21,7 +21,8 @@ const Dashboard = () => {
   }
 
   const callAPIToPost = async () => {
-    const resp = await axios.post(`http://localhost/myProjectsAPI/postProjects.php`, formData);
+    // const resp = await axios.post(`http://localhost/myProjectsAPI/postProjects.php`, formData);
+    const resp = await axios.post(`http://myapi.rf.gd/postProjects.php`, formData);
     console.log(resp.data);
   }
 
