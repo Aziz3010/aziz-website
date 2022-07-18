@@ -17,7 +17,8 @@ const Login = () => {
         const { data } = await axios.get(`http://myapi.rf.gd/index.php?email=${email}&password=${password}`);
         // "proxy": "http://localhost/myProjectsAPI",
         // const { data } = await axios.get(`/index.php?email=${email}&password=${password}`);
-        console.log(data);
+        
+        // console.log(data);
 
         if (data.msg === 'Allow') {
             let Number = Math.random() * 1000000;
