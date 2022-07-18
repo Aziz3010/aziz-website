@@ -21,7 +21,7 @@ const App = () => {
         <Route path='/portfolio' element={ <Portfolio /> } />
         {/* <Route path='/contact' element={ <Contact /> } /> */}
         <Route path='/login' element={ <Login /> } />
-        <Route path='/login:dashboard' element={ <Dashboard /> } />
+        <Route path='/dashboard' element={ <Dashboard /> } />
         <Route path='*' element={ <PageNotFound /> } />
       </Routes>
     </>
