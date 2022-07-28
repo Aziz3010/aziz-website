@@ -64,6 +64,10 @@ const SideNavbar = () => {
           <li>
             <Link to='/portfolio'><BusinessCenterIcon /> Portfolio</Link>
           </li>
+
+          <li>
+            <Link to='/allProjects'><BusinessCenterIcon /> All Projects</Link>
+          </li>
           
           {/* <li>
             <Link to='/contact'><ConnectWithoutContactIcon/> Contact</Link>

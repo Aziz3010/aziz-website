@@ -36,3 +36,12 @@ main {
     align-items: center;
     border: .2px solid #00a1e13d;
 }
+
+::-webkit-scrollbar {
+    background-color: #2C2D2F;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00A3E1;
+}

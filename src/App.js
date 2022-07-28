@@ -9,6 +9,7 @@ import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import { Routes, Route } from 'react-router-dom';
+import AllProjects from './Pages/AllProjects/AllProjects';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path='/about' element={ <About /> } />
         <Route path='/resume' element={ <Resume /> } />
         <Route path='/portfolio' element={ <Portfolio /> } />
+        <Route path='/allProjects' element={ <AllProjects /> } />
         {/* <Route path='/contact' element={ <Contact /> } /> */}
         <Route path='/login' element={ <Login /> } />
         <Route path='/dashboard' element={ <Dashboard /> } />
