@@ -37,6 +37,7 @@ import I36 from "../../images/projects/Online-Quiz.jpg";
 import I37 from "../../images/projects/google-search-clone.jpg";
 import I38 from "../../images/projects/nax.jpg";
 import I39 from "../../images/projects/food-delivery.jpg";
+import I40 from "../../images/projects/crudsbyreact.jpg";
 
 const projects = [
   {
@@ -73,6 +74,13 @@ const projects = [
     'pic': I3,
     'project_name': "Template",
     'technology': "Frontend",
+  },
+  {
+    'name': "CRUDs React",
+    'live_link': "https://cruds-by-react.vercel.app/home",
+    'pic': I40,
+    'project_name': "CRUDs React",
+    'technology': "React.Js",
   },
   {
     'name': "Restaurant Breakfast",
