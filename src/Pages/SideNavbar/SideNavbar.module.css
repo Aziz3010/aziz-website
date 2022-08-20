@@ -36,17 +36,62 @@ nav .burgerBtn {
     border-radius: 0 5px 5px 0;
     background-color: #00a3e180;
     z-index: 999;
-
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    animation-name: BtnAnimation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
 }
 
 nav .burgerBtn svg {
     font-size: 30px;
     color: #fff;
+}
+
+nav .burgerBtn::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.2);
+    animation-name: beforeBtnAnimation;
+    animation-duration: .8s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes BtnAnimation {
+    0% {
+        background-color: #00a3e180;
+    }
+
+    50% {
+        background-color: rgba(255, 0, 0, 0.5);
+    }
+
+    100% {
+        background-color: #00a3e180;
+    }
+}
+
+@keyframes beforeBtnAnimation {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    100% {
+        width: 110%;
+        height: 110%;
+    }
 }
 
 
@@ -141,16 +186,20 @@ nav .burgerBtn svg {
 .social li:nth-child(1) a:hover {
     color: black;
 }
+
 .social li:nth-child(2) a:hover,
 .social li:nth-child(4) a:hover {
     color: rgb(40, 40, 240);
 }
+
 .social li:nth-child(3) a:hover {
     color: green;
 }
+
 .social li:nth-child(5) a:hover {
     color: #00A3E1;
 }
+
 .social li:nth-child(6) a:hover {
     color: red;
 }
