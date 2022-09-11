@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import myPic from '../../images/others/Ahmed Abdelaziz.jpg';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
-import BadgeIcon from '@mui/icons-material/Badge';
+// import BadgeIcon from '@mui/icons-material/Badge';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 // import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -15,7 +15,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import MenuIcon from '@mui/icons-material/Menu';
-import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
+// import DashboardCustomizeIcon from '@mui/icons-material/DashboardCustomize';
 
 const SideNavbar = () => {
 
@@ -57,9 +57,9 @@ const SideNavbar = () => {
             <Link to='/about'><PersonIcon /> About</Link>
           </li>
 
-          <li>
+          {/* <li>
             <Link to='/resume'><BadgeIcon /> Resume</Link>
-          </li>
+          </li> */}
           
           <li>
             <Link to='/portfolio'><BusinessCenterIcon /> Portfolio</Link>
@@ -73,9 +73,9 @@ const SideNavbar = () => {
             <Link to='/contact'><ConnectWithoutContactIcon/> Contact</Link>
           </li> */}
 
-          <li>
+          {/* <li>
             <Link to='/login'><DashboardCustomizeIcon /> Dashboard</Link>
-          </li>
+          </li> */}
 
         </ul>
 

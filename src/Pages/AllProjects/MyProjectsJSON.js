@@ -38,6 +38,7 @@ import I37 from "../../images/projects/google-search-clone.jpg";
 import I38 from "../../images/projects/nax.jpg";
 import I39 from "../../images/projects/food-delivery.jpg";
 import I40 from "../../images/projects/crudsbyreact.jpg";
+import I41 from "../../images/projects/small_ecommerce.jpg";
 
 const projects = [
   {
@@ -62,11 +63,39 @@ const projects = [
     'technology': "Frontend",
   },
   {
+    'name': "eCommerce react",
+    'live_link': "https://small-e-commerce-two.vercel.app/shop",
+    'pic': I41,
+    'project_name': "eCommerce react",
+    'technology': "React.Js",
+  },
+  {
     'name': "Google clone",
     'live_link': "https://google-search-clone-cyan.vercel.app/all",
     'pic': I37,
     'project_name': "Google clone",
     'technology': "React.Js",
+  },
+  {
+    'name': "Nax",
+    'live_link': "https://aziz3010.github.io/Nax/",
+    'pic': I38,
+    'project_name': "Nax",
+    'technology': "Frontend",
+  },
+  {
+    'name': "vuexy-dashboard",
+    'live_link': "https://aziz3010.github.io/vuexy-dashboard/",
+    'pic': I30,
+    'project_name': "vuexy dashboard",
+    'technology': "Frontend",
+  },
+  {
+    'name': "car zone",
+    'live_link': "https://aziz3010.github.io/car-zone/",
+    'pic': I23,
+    'project_name': "car zone",
+    'technology': "Frontend",
   },
   {
     'name': "Template 3",
@@ -87,13 +116,6 @@ const projects = [
     'live_link': "https://aziz3010.github.io/Restaurant-Breakfast-Template/",
     'pic': I4,
     'project_name': "Restaurant Breakfast",
-    'technology': "Frontend",
-  },
-  {
-    'name': "Nax",
-    'live_link': "https://aziz3010.github.io/Nax/",
-    'pic': I38,
-    'project_name': "Nax",
     'technology': "Frontend",
   },
   {
@@ -230,13 +252,6 @@ const projects = [
     'technology': "Backend",
   },
   {
-    'name': "car zone",
-    'live_link': "https://aziz3010.github.io/car-zone/",
-    'pic': I23,
-    'project_name': "car zone",
-    'technology': "Frontend",
-  },
-  {
     'name': "Shopping & Cart",
     'live_link': "http://shoppingwithcart.rf.gd/",
     'pic': I24,
@@ -277,13 +292,6 @@ const projects = [
     'pic': I29,
     'project_name': "Calculator",
     'technology': "JavaScript",
-  },
-  {
-    'name': "vuexy-dashboard",
-    'live_link': "https://aziz3010.github.io/vuexy-dashboard/",
-    'pic': I30,
-    'project_name': "vuexy dashboard",
-    'technology': "Frontend",
   },
   {
     'name': "todo app",
