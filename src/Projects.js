@@ -3,6 +3,7 @@ import I2 from "./images/projects/food-delivery.jpg";
 import I3 from "./images/projects/Apartment-Finder.jpg";
 import I4 from "./images/projects/alclinicDashboard.jpg";
 import I5 from "./images/projects/google-search-clone.jpg";
+import I6 from "./images/projects/small-e-commerce.jpg";
 
 const projects = [
   {
@@ -11,6 +12,13 @@ const projects = [
     'pic': I4,
     'project_name': "Alclinic App",
     'technology': "Backend",
+  },
+  {
+    'name': "small Ecommerce",
+    'live_link': "https://small-e-commerce-two.vercel.app/shop",
+    'pic': I6,
+    'project_name': "small Ecommerce",
+    'technology': "React.Js",
   },
   {
     'name': "Food delivery",

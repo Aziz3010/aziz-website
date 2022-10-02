@@ -35,9 +35,9 @@ const Portfolio = () => {
           <a className="nav-link" rel="noreferrer" href="/">Frontend</a>
         </li>
 
-        <li className="nav-item m-1" onClick={ (e) => handleTabs(e) }>
+        {/* <li className="nav-item m-1" onClick={ (e) => handleTabs(e) }>
           <a className="nav-link" rel="noreferrer" href="/">JavaScript</a>
-        </li>
+        </li> */}
 
         <li className="nav-item m-1" onClick={ (e) => handleTabs(e) }>
           <a className="nav-link" rel="noreferrer" href="/">React.Js</a>
@@ -47,9 +47,9 @@ const Portfolio = () => {
           <a className="nav-link" rel="noreferrer" href="/">Vue.Js</a>
         </li> */}
 
-        {/* <li className="nav-item m-1" onClick={ (e) => handleTabs(e) }>
+        <li className="nav-item m-1" onClick={ (e) => handleTabs(e) }>
           <a className="nav-link"  rel="noreferrer" href="/">Backend</a>
-        </li> */}
+        </li>
       
       </ul>
       {/* Projects Numeber */}

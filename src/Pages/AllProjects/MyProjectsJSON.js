@@ -39,7 +39,8 @@ import I38 from "../../images/projects/nax.jpg";
 import I39 from "../../images/projects/food-delivery.jpg";
 import I40 from "../../images/projects/crudsbyreact.jpg";
 import I41 from "../../images/projects/small_ecommerce.jpg";
-import I41 from "../../images/projects/alclinicDashboard.jpg";
+import I42 from "../../images/projects/alclinicDashboard.jpg";
+import I43 from "../../images/projects/small-e-commerce.jpg";
 
 const projects = [
   {
@@ -48,6 +49,13 @@ const projects = [
     'pic': I42,
     'project_name': "Alclinic App",
     'technology': "Backend",
+  },
+  {
+    'name': "small Ecommerce",
+    'live_link': "https://small-e-commerce-two.vercel.app/shop",
+    'pic': I43,
+    'project_name': "small Ecommerce",
+    'technology': "React.Js",
   },
   {
     'name': "Stated",
