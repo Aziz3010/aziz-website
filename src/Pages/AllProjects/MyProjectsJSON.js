@@ -40,7 +40,6 @@ import I39 from "../../images/projects/food-delivery.jpg";
 import I40 from "../../images/projects/crudsbyreact.jpg";
 import I41 from "../../images/projects/small_ecommerce.jpg";
 import I42 from "../../images/projects/alclinicDashboard.jpg";
-import I43 from "../../images/projects/small-e-commerce.jpg";
 
 const projects = [
   {
@@ -53,7 +52,7 @@ const projects = [
   {
     'name': "small Ecommerce",
     'live_link': "https://small-e-commerce-two.vercel.app/shop",
-    'pic': I43,
+    'pic': I41,
     'project_name': "small Ecommerce",
     'technology': "React.Js",
   },
@@ -77,13 +76,6 @@ const projects = [
     'pic': I2,
     'project_name': "Apartment Finder",
     'technology': "Frontend",
-  },
-  {
-    'name': "eCommerce react",
-    'live_link': "https://small-e-commerce-two.vercel.app/shop",
-    'pic': I41,
-    'project_name': "eCommerce react",
-    'technology': "React.Js",
   },
   {
     'name': "Google clone",
