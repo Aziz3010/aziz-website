@@ -39,8 +39,16 @@ import I38 from "../../images/projects/nax.jpg";
 import I39 from "../../images/projects/food-delivery.jpg";
 import I40 from "../../images/projects/crudsbyreact.jpg";
 import I41 from "../../images/projects/small_ecommerce.jpg";
+import I41 from "../../images/projects/alclinicDashboard.jpg";
 
 const projects = [
+  {
+    'name': "Alclinic App",
+    'live_link': "http://alclinic.rf.gd/",
+    'pic': I42,
+    'project_name': "Alclinic App",
+    'technology': "Backend",
+  },
   {
     'name': "Stated",
     'live_link': "https://aziz3010.github.io/Stated-Template/",
