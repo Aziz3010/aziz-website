@@ -40,6 +40,7 @@ import I39 from "../../images/projects/food-delivery.jpg";
 import I40 from "../../images/projects/crudsbyreact.jpg";
 import I41 from "../../images/projects/small_ecommerce.jpg";
 import I42 from "../../images/projects/alclinicDashboard.jpg";
+import I43 from "../../images/projects/furniture-ecommerce.jpg";
 
 const projects = [
   {
@@ -48,6 +49,13 @@ const projects = [
     'pic': I42,
     'project_name': "Alclinic App",
     'technology': "Backend",
+  },
+  {
+    'name': "Furniture ecommerce",
+    'live_link': "https://furniture-ecommerce-omega.vercel.app/home",
+    'pic': I43,
+    'project_name': "Furniture ecommerce",
+    'technology': "React.Js",
   },
   {
     'name': "small Ecommerce",

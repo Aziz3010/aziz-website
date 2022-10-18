@@ -1,5 +1,5 @@
 import I1 from "./images/projects/vuexy-dashboard.jpg";
-import I2 from "./images/projects/food-delivery.jpg";
+import I2 from "./images/projects/furniture-ecommerce.jpg";
 import I3 from "./images/projects/Apartment-Finder.jpg";
 import I4 from "./images/projects/alclinicDashboard.jpg";
 import I5 from "./images/projects/google-search-clone.jpg";
@@ -21,10 +21,10 @@ const projects = [
     'technology': "React.Js",
   },
   {
-    'name': "Food delivery",
-    'live_link': "https://food-delivery-app-flax.vercel.app/home",
+    'name': "Furniture ecommerce",
+    'live_link': "https://furniture-ecommerce-omega.vercel.app/home",
     'pic': I2,
-    'project_name': "Food delivery",
+    'project_name': "Furniture ecommerce",
     'technology': "React.Js",
   },
   {
